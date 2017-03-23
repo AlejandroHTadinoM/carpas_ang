@@ -536,3 +536,37 @@ nav {
 .card-title:hover {
   color: rgba(172, 137, 40, 0.8);
 }
+
+.service-title {
+  color: #158BAC;
+  font-weight: 300;
+}
+
+.service-wrap {
+  display: table;
+  padding: 1rem;
+  transition: all .3s ease-in-out;
+}
+
+.service-wrap:after {
+  content: "";
+  clear: both;
+}
+
+.service-wrap:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0, .3);
+  background-color: rgba(172, 137, 40, 0.3);
+}
+
+.service-wrap ul { 
+  list-style: circle;
+}
+
+.service-wrap ul li {
+  color: #666;
+  list-style: circle;
+}
+
+.service-wrap:hover li {
+  color: #444;
+}
