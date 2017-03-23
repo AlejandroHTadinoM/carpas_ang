@@ -11,7 +11,7 @@
   margin:0;	
   }
 body {
-  background-image: url(../img/topography.png);
+  background-image: url(../img/bg-gold.png);
   background-repeat: repeat;
   font-size:100%;
   font-family:"Open Sans",Arial,sans-serif;
@@ -98,7 +98,7 @@ nav {
   min-width:100%;
   padding:0.625em;
 }
-.top-nav li a:hover, .aside-nav li a:hover {background:#FFF;}
+.top-nav li a:hover, .aside-nav li a:hover {background:#01579B;}
 .top-nav li ul {display:none;}
 .top-nav li ul li {
   float:none;
@@ -486,4 +486,53 @@ nav {
   float:none;
   margin:0 auto;
   display:block;
+}
+
+/************************************
+*
+*   Custom Css
+*
+*************************************/
+
+.service {
+  text-align: center;
+  transition: all .3s ease-in-out;
+  margin-top: 25px;
+  display: table;
+}
+
+.service:after{
+  content: "";
+  clear: both;
+}
+
+.service h4 {
+  text-align: center;
+}
+
+.service:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0, .3);
+  background-color: rgba(172, 137, 40, 0.3);
+}
+
+.service .service-desc {
+  font-weight: bold;
+}
+
+.service .text-muted {
+  font-weight: 100;
+  color: #444;
+}
+
+.service-text {
+  margin-top: 10%;
+}
+
+.card-title {
+  text-align: center;
+  color: #212121;
+}
+
+.card-title:hover {
+  color: rgba(172, 137, 40, 0.8);
 }
